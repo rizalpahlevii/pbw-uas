@@ -18,5 +18,6 @@
         <li><a href="<?= "index.php?page=pc-index" ?>"><i class="fa fa-dashboard"></i> <span>Kategori Produk</span></a></li>
         <li><a href="<?= "index.php?page=nc-index" ?>"><i class="fa fa-dashboard"></i> <span>Kategori Berita</span></a></li>
         <li><a href="<?= "index.php?page=product-index" ?>"><i class="fa fa-dashboard"></i> <span>Produk</span></a></li>
+        <li><a href="<?= "index.php?page=news-index" ?>"><i class="fa fa-dashboard"></i> <span>Berita</span></a></li>
     </ul>
 </section>
