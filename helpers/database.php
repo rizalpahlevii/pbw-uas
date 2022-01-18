@@ -9,27 +9,28 @@ class Database
 
     function get($column = null, $table = null, $property = null)
     {
-        $qw = "SELECT $column FROM $table $property";
-        return $this->con->query($qw);
+        $query = "SELECT $column FROM $table $property";
+        return $this->con->query($query);
     }
 
     function create($table = null, $value = null)
     {
-        $qw = "INSERT INTO $table VALUES($value)";
-        return $this->con->query($qw);
+        $query = "INSERT INTO $table VALUES($value)";
+        return $this->con->query($query);
     }
 
 
     function delete($table = null, $condition = null)
     {
-        $qw = "DELETE FROM $table WHERE $condition";
-        return $this->con->query($qw);
+        $query = "DELETE FROM $table WHERE $condition";
+        return $this->con->query($query);
     }
 
     function update($table = null, $value = null, $property = null)
     {
-        $qw = "UPDATE $table SET $value WHERE $property";
-        return $this->con->query($qw);
+        $query = "UPDATE $table SET $value WHERE $property";
+
+        return $this->con->query($query);
     }
 }
 
