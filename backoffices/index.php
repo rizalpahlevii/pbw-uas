@@ -1,3 +1,14 @@
+<?php
+
+session_start();
+error_reporting(0);
+
+if (!isset($_SESSION["is_login"])) {
+    header("Location: login.php");
+    exit;
+}
+
+?>
 <!DOCTYPE html>
 <html>
 
