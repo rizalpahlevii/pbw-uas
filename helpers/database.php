@@ -17,6 +17,7 @@ class Database
     function create($table = null, $value = null)
     {
         $query = "INSERT INTO $table VALUES($value)";
+
         return $this->con->query($query);
     }
 
