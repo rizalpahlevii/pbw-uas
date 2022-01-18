@@ -19,5 +19,10 @@
         <li><a href="<?= "index.php?page=nc-index" ?>"><i class="fa fa-dashboard"></i> <span>Kategori Berita</span></a></li>
         <li><a href="<?= "index.php?page=product-index" ?>"><i class="fa fa-dashboard"></i> <span>Produk</span></a></li>
         <li><a href="<?= "index.php?page=news-index" ?>"><i class="fa fa-dashboard"></i> <span>Berita</span></a></li>
+        <li><a href="<?= "index.php?page=video-index" ?>"><i class="fa fa-dashboard"></i> <span>Video</span></a></li>
+        <li><a href="<?= "index.php?page=sm-index" ?>"><i class="fa fa-dashboard"></i> <span>Sosial Media</span></a></li>
+        <li><a href="<?= "index.php?page=contact-index" ?>"><i class="fa fa-dashboard"></i> <span>Contact Us</span></a></li>
+        <li><a href="<?= "index.php?page=message-index" ?>"><i class="fa fa-dashboard"></i> <span>Pesan</span></a></li>
+        <li><a href="<?= "index.php?page=order-index" ?>"><i class="fa fa-dashboard"></i> <span>Order</span></a></li>
     </ul>
 </section>
