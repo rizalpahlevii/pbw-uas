@@ -20,6 +20,7 @@
                         <thead>
                             <tr>
                                 <th>#</th>
+                                <th>Gambar</th>
                                 <th>Nama</th>
                                 <th>Harga</th>
                                 <th>Stok</th>
@@ -36,6 +37,7 @@
                             ?>
                                 <tr>
                                     <td><?= $no ?></td>
+                                    <td style="width: 20%;"><img src="./../assets/product-images/<?= $row['image'] ?>" alt="" style="width: 80%;"></td>
                                     <td><?= $row['name'] ?></td>
                                     <td><?= $row['price'] ?></td>
                                     <td><?= $row['stock'] ?></td>
