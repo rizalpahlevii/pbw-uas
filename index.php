@@ -22,20 +22,20 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                        <a class="nav-link" aria-current="page" href="index.php?page=home">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Produk</a>
+                        <a class="nav-link" href="index.php?page=product">Produk</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link " href="about.html" tabindex="-1" aria-disabled="true">Berita</a>
+                        <a class="nav-link " href="index.php?page=news" tabindex="-1" aria-disabled="true">Berita</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="about.html" tabindex="-1" aria-disabled="true">Kontak</a>
+                        <a class="nav-link " href="index.php?page=contact" tabindex="-1" aria-disabled="true">Kontak</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="about.html" tabindex="-1" aria-disabled="true">Video</a>
+                        <a class="nav-link " href="index.php?page=video" tabindex="-1" aria-disabled="true">Video</a>
                     </li>
                 </ul>
                 <form class="d-flex">

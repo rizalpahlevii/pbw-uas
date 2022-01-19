@@ -39,6 +39,7 @@ if (!isset($_SESSION["is_login"])) {
     <link rel="stylesheet" href="<?php echo APP_URL . 'assets/adminlte/' ?>bower_components/bootstrap-daterangepicker/daterangepicker.css">
     <!-- bootstrap wysihtml5 - text editor -->
     <link rel="stylesheet" href="<?php echo APP_URL . 'assets/adminlte/' ?>plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+    <script src="<?php echo APP_URL . 'assets/adminlte/' ?>bower_components/jquery/dist/jquery.min.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

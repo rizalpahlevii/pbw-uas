@@ -1,7 +1,7 @@
 <?php
 include "./../helpers/database.php";
 if (isset($_POST['submit'])) {
-    if (isset($_FILES['image'])) {
+    if (isset($_FILES['image']) != null) {
         $allowExtension = ['png', 'jpg', 'jpeg'];
         $fileName = $_FILES['image']['name'];
         $expl = explode('.', $fileName);

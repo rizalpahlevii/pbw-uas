@@ -15,7 +15,7 @@
                     </div>
                 </div>
                 <div class="box-body">
-
+                    <a href="index.php?page=order-create" class="btn btn-sm btn-primary">Tambah Order</a>
                     <table class="table table-bordered-table-hover">
                         <thead>
                             <tr>
