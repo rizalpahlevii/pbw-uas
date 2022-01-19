@@ -56,11 +56,21 @@
 
     <div class="container">
         <footer class="py-3 my-4">
-            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <ul class="nav justify-content-center    pb-3 mb-3">
                 <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Beranda</a></li>
                 <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Kontak</a></li>
                 <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">Berita</a></li>
                 <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">Video</a></li>
+
+            </ul>
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <?php
+                include "helpers/database.php";
+                $socialMedias = $db->get("*", "social_medias");
+                foreach ($socialMedias as $row) : ?>
+
+                    <li class="nav-item"><a href="<?= $row['value'] ?>" target="_blank" class="nav-link px-2 text-muted"><?= $row['name'] ?></a></li>
+                <?php endforeach; ?>
 
             </ul>
             <p class="text-center text-muted">&copy; Rizal Pahlevi</p>
