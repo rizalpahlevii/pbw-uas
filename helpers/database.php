@@ -5,7 +5,7 @@ class Database
     function __construct()
     {
         $this->con = new PDO("mysql:host=localhost;dbname=pbw_uas", "root", "");
-        // $this->con = new PDO("mysql:host=localhost;dbname=u1422143_rizal_pbw_uas", "u1422143_rizal", "");
+        // $this->con = new PDO("mysql:host=localhost;dbname=u1422143_rizal_pbw_uas", "u1422143_rizal", "pahlevii123#");
     }
 
     function get($column = null, $table = null, $property = null)
