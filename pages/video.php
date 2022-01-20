@@ -8,10 +8,11 @@ $videos = $db->get("*", "videos");
 <div class="container">
     <div class="row">
         <?php foreach ($videos as $row) : ?>
-            <div class="col-md-6">
+            <div class="col-md-6 mt-2">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><?= $row['title'] ?></h5>
+
                         <a href="index.php?page=video-detail&id=<?= $row['id'] ?>" class="card-link">Detail</a>
                     </div>
                 </div>
