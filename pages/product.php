@@ -33,7 +33,7 @@ if (isset($_GET['category'])) {
                 $productCategories = $db->get("*", "product_categories");
                 foreach ($productCategories as $_productCategory) :
                 ?>
-                    <a href="../index.php?page=product&category=<?= $_productCategory['id'] ?>" class="list-group-item list-group-item-action <?= $_GET['category'] == $_productCategory['id'] ? "active" : "" ?>"><?= $_productCategory['name'] ?></a>
+                    <a href="index.php?page=product&category=<?= $_productCategory['id'] ?>" class="list-group-item list-group-item-action <?= $_GET['category'] == $_productCategory['id'] ? "active" : "" ?>"><?= $_productCategory['name'] ?></a>
                 <?php endforeach; ?>
             </div>
         </div>

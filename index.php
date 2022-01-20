@@ -1,4 +1,5 @@
-<?php include("./helpers/config.php") ?>
+<?php error_reporting(0);
+include("./helpers/config.php") ?>
 <!DOCTYPE html>
 <html lang="en">
 

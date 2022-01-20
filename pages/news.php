@@ -33,14 +33,14 @@ if (isset($_GET['category'])) {
                 $newsCategories = $db->get("*", "news_categories");
                 foreach ($newsCategories as $_newsCategory) :
                 ?>
-                    <a href="../index.php?page=news&category=<?= $_newsCategory['id'] ?>" class="list-group-item list-group-item-action <?= $_GET['category'] == $_newsCategory['id'] ? "active" : "" ?>"><?= $_newsCategory['name'] ?></a>
+                    <a href="index.php?page=news&category=<?= $_newsCategory['id'] ?>" class="list-group-item list-group-item-action <?= $_GET['category'] == $_newsCategory['id'] ? "active" : "" ?>"><?= $_newsCategory['name'] ?></a>
                 <?php endforeach; ?>
             </div>
         </div>
         <div class="col-md-9">
             <div class="row">
                 <?php foreach ($news as $row) : ?>
-                    <div class="col-md-6">
+                    <div class="col-md-6 mt-2">
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title"><?= $row['title'] ?></h5>
