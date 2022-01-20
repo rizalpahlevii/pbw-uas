@@ -39,7 +39,7 @@ if (isset($_POST['submit'])) {
                             <input type="text" class="form-control" name="title" id="title" required value="<?= $row['title'] ?>">
                         </div>
                         <div class="form-group">
-                            <label for="price">Harga</label>
+                            <label for="price">Konten</label>
                             <textarea name="content" id="content" cols="30" rows="5" class="form-control"><?= $row['content'] ?></textarea>
 
                         </div>

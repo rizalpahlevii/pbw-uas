@@ -36,7 +36,7 @@ if (isset($_POST['submit'])) {
                             <input type="text" class="form-control" name="title" id="title" required>
                         </div>
                         <div class="form-group">
-                            <label for="content">Harga</label>
+                            <label for="content">Konten</label>
                             <textarea name="content" id="content" cols="30" rows="5" class="form-control"></textarea>
                         </div>
                         <div class="form-group">

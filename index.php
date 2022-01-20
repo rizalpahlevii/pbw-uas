@@ -1,4 +1,5 @@
 <?php include("./helpers/config.php") ?>
+<?php error_reporting(0); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -64,14 +65,7 @@
 
             </ul>
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <?php
-                include "helpers/database.php";
-                $socialMedias = $db->get("*", "social_medias");
-                foreach ($socialMedias as $row) : ?>
-
-                    <li class="nav-item"><a href="<?= $row['value'] ?>" target="_blank" class="nav-link px-2 text-muted"><?= $row['name'] ?></a></li>
-                <?php endforeach; ?>
-
+                <?php include "pages/footer.php" ?>
             </ul>
             <p class="text-center text-muted">&copy; Rizal Pahlevi</p>
         </footer>
